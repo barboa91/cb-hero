@@ -1,0 +1,78 @@
+{
+   name : "put recipe name inside the quotes end line with comma",
+   ingredients : ["put each in quotes","comma qotes for new one"], 
+   difficulty : "easy/med/hard end line with quotes comma",
+   steps : [{
+               description: "1.put inside the quotes"
+            },
+            {
+               description: "this is step 2"
+            }
+         ],
+   chef : "put name inside the quotes",
+   date : "date inside the quotes mm/dd/yyyy"
+},
+
+{
+   name : "BANANA BREAD",
+   ingredients : ["1/8 cup white sugar","1/2 tsp ground cinnamon","6 tsp softened butter",
+      "1 1/2 cups white sugar","2 eggs","2 very ripe bananas, mashed","8 oz. sour cream",
+      "1 tsp vanilla extract","1/4 tsp salt","2 tsp baking soda","2 1/4 cups all-purpose flour",
+      "1/2 cup chopped walnuts or cocolate chips(optional)"], 
+   difficulty : "easy/med/hard end line with quotes comma",
+   steps : [{
+               description: "1.Preheat oven to 325 degrees. Grease two 7x3 inch loaf pans,  or 1 loaf and 6 muffins"
+
+   
+            },
+            { "2. In a small bowl, stir together 1/4 cup white sugar and 1 tsp cinnamon.            Dust pans lightly with cinnamon and sugar mixture."
+                
+            },{
+               description: "3. In large bowl, cream butter and 1 1/2 cups sugar. Mix in eggs, mashed bananas, sour cream and vanilla. Mix in salt, baking soda and flour. Stir in nuts. Divide into prepared pans."
+            },{
+               description: "4. Bake for 1 hour, until a toothpick/knife inserted into center comes out clean"
+            },
+         ],
+   chef : "Erik Barbosa",
+   date : "12/30/2010"
+},
+
+{
+   name : "EASTER BREAD",
+   ingredients : ["1/2 cup milk","1/2 cup sugar","1 tps salt",
+      "1/2 cup butter","grated peel of 1 lemon","2 pkgs active dry yeast","1/2 cup warm water",
+      "2 eggs  at room temperature","4 1/2 cups flour","1 beaten egg",], 
+   difficulty : "easy/med/hard end line with quotes comma",
+   steps : [{
+               description: "1. Scald the milk, add the sugar, salt, butter and lemon peel. Let cool slightly."
+
+   
+            },
+            { "2. Sprinkle the yeast onto warm water and dissolve. Add to the milk mixture"
+                
+            },{
+               description: "3. Add eggs slightly beaten"
+            },{
+               description: "4. Add 2 1/2 cups flour and mix until smooth"
+            },
+            { "5. Add additional flour as needed to form the dough and knead for about 5-8 minutes until it is smooth and elastic."}
+            { "6. Place dough in a lightly greased bowl. Cover and let rise in a warm area until doubled- about 1 hour"}
+            { "7. Punch down the dough and let rise again for an additional 30 minutes until doubled."}
+            {"8 Divide dough into 4 parts. Roll into ropes and braid into 8 inch long loaves. Place colored egg on closed end. Brush with egg was and sprinkle with small colored confectionary balls"}
+         ],
+   chef : "Mom",
+   date : "easter 1980"
+},{
+   name : "MOCK GARLIC MASH",
+   ingredients : ["1 head of cauliflower","2 oz cream cheese","1/4 cup Pecorino Romano grated cheese","1 chicken boullion cube","1/4 tsp minced garlic","salt and pepper to taste","3 tbls butter",], 
+   difficulty : "easy",
+   steps : [{
+               description: "1. Clean and cut cauliflower into small pieces. Cook in boiling water for about 6 minutes until well done. Drain well"},
+            { "2. Return cauliflower to the pot and add cream cheese, Romano cheese, garlic, grated bullion, butter and salt and pepper. Using an immersion blender, whip it well."},
+         
+         
+         ],
+   chef : "Erik Barbosa",
+   date : "12/30/2010"
+}
+

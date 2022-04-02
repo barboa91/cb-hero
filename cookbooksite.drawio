@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2022-03-28T13:17:12.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="vShnsv9phen3ajqnybYZ" version="17.2.4" type="github">
+  <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
+    <mxGraphModel dx="1626" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ed32ef02a7f4228-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Chefs&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;_id&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;username&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;firstName&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;lastName&lt;br&gt;&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;private&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;recipesCreated&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;recipesSaved&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;password&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;family&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="-250" y="-50" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nD4opCiTAH2ZllQkiQKj-14" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Recipe&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;_id&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;br&gt;&lt;/td&gt;&lt;td&gt;difficulty&lt;/td&gt;&lt;td&gt;required&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;number&lt;/td&gt;&lt;td&gt;totalTime&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;steps&lt;/td&gt;&lt;td&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;pictures&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;comments&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;chef&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;/td&gt;&lt;td&gt;ingredients&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;date&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="-230" y="290" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nD4opCiTAH2ZllQkiQKj-18" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;picture&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;1&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;_id&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;url&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;/td&gt;&lt;td&gt;comments&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="205" y="480" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nD4opCiTAH2ZllQkiQKj-19" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;comment&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;1&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;_id&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;user&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;user&lt;/td&gt;&lt;td&gt;comment&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="130" y="620" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nD4opCiTAH2ZllQkiQKj-21" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Step&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;1&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;_id&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;/td&gt;&lt;td&gt;pictures&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;[obj]&lt;br&gt;&lt;/td&gt;&lt;td&gt;comments&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="510" y="340" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nD4opCiTAH2ZllQkiQKj-23" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;ingredient&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;1&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;_id&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;picture&lt;/td&gt;&lt;td&gt;no&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="190" y="170" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-4" target="nD4opCiTAH2ZllQkiQKj-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-140" y="210" as="sourcePoint" />
+            <mxPoint x="-270" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="nD4opCiTAH2ZllQkiQKj-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-10" y="360" as="sourcePoint" />
+            <mxPoint x="90" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=-0.015;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nD4opCiTAH2ZllQkiQKj-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-10" y="480" as="sourcePoint" />
+            <mxPoint x="-10" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=1.013;exitY=0.725;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nD4opCiTAH2ZllQkiQKj-14" target="nD4opCiTAH2ZllQkiQKj-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="490" as="sourcePoint" />
+            <mxPoint x="460" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nD4opCiTAH2ZllQkiQKj-14" target="nD4opCiTAH2ZllQkiQKj-21">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="370" as="sourcePoint" />
+            <mxPoint x="200" y="207.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nD4opCiTAH2ZllQkiQKj-21" target="nD4opCiTAH2ZllQkiQKj-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2.8599999999999" y="474" as="sourcePoint" />
+            <mxPoint x="215" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8LD7ZLFhRu683AUg_SQk-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nD4opCiTAH2ZllQkiQKj-21" target="nD4opCiTAH2ZllQkiQKj-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="12.8599999999999" y="484" as="sourcePoint" />
+            <mxPoint x="225" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

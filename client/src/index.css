@@ -1,0 +1,197 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #90bd8c;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+main {
+  text-align: center;
+  max-width: 1660px;
+  margin: 0 auto;
+}
+.logo{
+  float:left;
+  position: absolute;
+}
+.login{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Nav {
+  font-size: 1.5em;
+  background-color: green;
+  background-image: linear-gradient(to right ,#2EB62C, #486e39);
+  padding: 10px;
+}
+.addIngredient{
+  display: flex;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.signUp{
+    text-align: center;
+  margin: 0 auto;
+
+    width: 400px;
+}
+.n{
+  text-align: center;
+margin: 0 auto;
+
+  width: 400px;
+}
+
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px #ccc;
+}
+
+input[type=password]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px #ccc;
+
+}
+input.commInput {
+  border-top-left-radius : 25px;
+  border-bottom-left-radius : 25px;
+  border-top-right-radius : 0px;
+  border-bottom-right-radius : 0px;
+  border-right: none;
+  width: 100%;
+} 
+
+a {
+  padding: 1em;
+  color: #023020;
+  text-decoration: none;
+}
+
+.recipeName{
+  font-size: 2em;
+}
+.recipePic{
+  max-width: 300px;
+}
+.ingstep{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+.ingredients{
+  list-style-type: none;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: left;
+  border-top: 2px solid #90bd8c;
+}
+
+.rComments{
+  display: block;
+}
+.addCom{
+  display: inline;
+  background-color: white;
+  width: 5%;
+  padding: 9px 20px 11px 10px;
+  margin-left: -1px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px #ccc;
+  border-top-right-radius : 25px;
+  border-bottom-right-radius : 25px;
+  position: relative;
+}
+.addCom:hover{
+  display: inline;
+  background-color: #ccc;
+  width: 5%;
+  padding: 9px 20px 11px 10px;
+  margin-left: -1px 0;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px #ccc;
+  border-top-right-radius : 25px;
+  border-bottom-right-radius : 25px;
+  cursor: pointer;
+}
+.newRecipe{
+  width :1660px;
+}
+.ingList{
+  border: 2px solid #023020;
+  border-radius: 20px;
+  background-color: #023020;
+  color:#90bd8c;
+  padding: 10px 10px 10px 10px;
+}
+.oneIng{
+  width: 50%;
+}
+.ingAmt{
+  width: 25%;
+
+}
+.addstep{
+  display: flex;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.addstepsub{
+  width: 95%;
+}
+.commSec{
+  width: 50%;
+  margin: 0 auto;
+}
+.rSteps{
+  padding-left: 50px;
+  width: 800px;
+  text-align: left;
+  border-top: #2EB62C 2px solid;
+  padding-top: 10px;
+}
+.stepList{
+  border-radius: 20px;
+  border: #0d5039 2px solid;
+  background-color: #0d5039;
+  color:#56ac5a;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+}

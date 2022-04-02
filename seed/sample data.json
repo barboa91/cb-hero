@@ -1,0 +1,36 @@
+{
+    "name" : "MOCK GARLIC MASH",
+    "ingredients" : [
+        {
+            "name" : "head of cauliflower",
+            "amount" : "1"
+        },{
+            "name" : "cream cheese",
+            "amount" : "2 oz"
+        },{
+            "name" : "pecorino romano grated cheese",
+            "amount" :"1/4 cup"
+        },{
+            "name" : "chicken boullion cube",
+            "amount" : "1" 
+        },{
+            "name" : "minced garlic",
+            "amount" : "1/4 tsp"
+        },{
+            "name" : "salt",
+            "amount" :"to taste"
+        },{
+            "name" : "pepper",
+            "amount" :"to taste"
+        },{
+            "name" : "butter",
+            "amount" :"3 tsp"
+        }],
+    "difficulty" : "easy",
+    "steps" : [
+            {"description": "1. Clean and cut cauliflower into small pieces. Cook in boiling water for about 6 minutes until well done. Drain well"},
+            { "description": "2. Return cauliflower to the pot and add cream cheese, Romano cheese, garlic, grated bullion, butter and salt and pepper. Using an immersion blender, whip it well."}
+        ],
+    "chef" : "admin",
+    "date" : "12/30/2010"
+ }
